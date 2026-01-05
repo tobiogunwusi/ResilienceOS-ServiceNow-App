@@ -57,6 +57,15 @@ The application follows a strict data pipeline:
 | **Automation** | Flow Designer |
 | **Data Integrity** | `parseInt()` sanitization, Enforced State Flows |
 
+System Processing:
+Intelligence: Detects "Heap Space" -> Assigns Score: 98 -> Sets Status: Auto-Fixing.
+Governance: Validates Score > 90. Allows automation.
+Action: Triggers Flow.
+
+Output (Audit Log):
+"2026-01-05 15:27:29 - System Administrator: Auto-Fix executed successfully. Server rebooted. Closing ticket."
+
+
 ---
 ## 📸 Usage Example
 
@@ -67,12 +76,3 @@ The application follows a strict data pipeline:
   "error": "Java Heap Space OutOfMemoryError",
   "source": "SolarWinds"
 }
-
-
-2. System Processing:
-Intelligence: Detects "Heap Space" -> Assigns Score: 98 -> Sets Status: Auto-Fixing.
-Governance: Validates Score > 90. Allows automation.
-Action: Triggers Flow.
-
-3. Output (Audit Log):
-"2026-01-05 15:27:29 - System Administrator: Auto-Fix executed successfully. Server rebooted. Closing ticket."
