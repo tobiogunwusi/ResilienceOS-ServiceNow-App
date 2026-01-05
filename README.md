@@ -66,8 +66,7 @@ The application follows a strict data pipeline:
 {
   "server": "DE-BER-01",
   "error": "Java Heap Space OutOfMemoryError",
-  "source": "SolarWinds"
-}
+  "source": "SolarWinds"}
 
 2. System Processing:
 Intelligence: Detects "Heap Space" -> Assigns Score: 98 -> Sets Status: Auto-Fixing.
@@ -76,4 +75,3 @@ Action: Triggers Flow.
 
 3. Output (Audit Log):
 "2026-01-05 15:27:29 - System Administrator: Auto-Fix executed successfully. Server rebooted. Closing ticket."
-
