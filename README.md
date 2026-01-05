@@ -58,9 +58,15 @@ The application follows a strict data pipeline:
 | **Data Integrity** | `parseInt()` sanitization, Enforced State Flows |
 
 ---
+## 📸 Usage Example
 
-
-
+**1. Input (JSON sent via Postman):**
+```json
+{
+  "server": "DE-BER-01",
+  "error": "Java Heap Space OutOfMemoryError",
+  "source": "SolarWinds"
+}
 
 
 2. System Processing:
