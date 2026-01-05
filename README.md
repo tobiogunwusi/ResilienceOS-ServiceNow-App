@@ -66,7 +66,7 @@ The application follows a strict data pipeline:
   "server": "DE-BER-01",
   "error": "Java Heap Space OutOfMemoryError",
   "source": "SolarWinds"
-}
+} ```
 
 2. System Processing:
 Intelligence: Detects "Heap Space" -> Assigns Score: 98 -> Sets Status: Auto-Fixing.
