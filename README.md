@@ -66,6 +66,29 @@ Output (Audit Log):
 "2026-01-05 15:27:29 - System Administrator: Auto-Fix executed successfully. Server rebooted. Closing ticket."
 
 
+## 📸 Application Visuals
+
+### 1. The Executive Dashboard (Command Center)
+*Provides real-time visibility into Alert Fatigue reduction, auto-fix rates, and source system metrics.*
+![Command Center](dashboard.png)
+
+### 2. Intelligent Ingestion (Scripted REST API)
+*Custom API endpoint designed to ingest signals from AWS, Datadog, and SolarWinds. Includes payload parsing and error handling.*
+![REST API Explorer](rest_api.png)
+
+### 3. Automation Logic (Flow Designer)
+*Closed-loop remediation flow. The system evaluates the "Confidence Score" before attempting an auto-fix. If the score is low, it branches to human review.*
+![Flow Designer Logic](flow_designer.png)
+
+### 4. Governance & Safety
+*Built-in safety rails prevent automation on low-confidence items. The system adheres to strict governance rules to prevent "flapping" or incorrect fixes.*
+![Governance Logic](governance.png)
+
+### 5. Analyst Notification
+*If automation is blocked due to safety thresholds, the analyst is notified immediately with the specific reason.*
+![Email Notification](notification.png)
+
+
 ---
 ## 📸 Usage Example
 
