@@ -1,6 +1,5 @@
 (function executeRule(current, previous /*null when async*/) {
 
-    // 1. Input Sanitization: Handle nulls and make case-insensitive for better matching
     var errorLog = current.error_payload ? current.error_payload.toString().toLowerCase() : "";
     
     var analysis = "";
